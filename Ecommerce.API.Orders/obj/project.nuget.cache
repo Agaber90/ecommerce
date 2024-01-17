@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "st3vLe21kUcZZcMtverCHukQvvomn/MHsXHT/LDmHUJtg3qpfUPiFX6vv/8COTMd4j3eH38FO/BDbd23OiSlHg==",
+  "dgSpecHash": "+FW6bSb33iHnmOJGFVyIWCVIIkFcEXee3S1/aV4HtoQ0aWKID2L0YmG8tvUHbdlLQ0+7+hci8J+O8Q4y4U+sMg==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Azure Function Projects\\ServiceBus\\git\\ecommerce\\Ecommerce.API.Orders\\Ecommerce.API.Orders.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\Ahmed_Gaber\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Ahmed_Gaber\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Ahmed_Gaber\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Ahmed_Gaber\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
     "C:\\Users\\Ahmed_Gaber\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Ahmed_Gaber\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Ahmed_Gaber\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

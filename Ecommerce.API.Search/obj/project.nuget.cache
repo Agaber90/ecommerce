@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fTY+toydPYK60BZpzDxQEHGzvXRD7QlVx6t7ZCsnS5uGhJTujxNEMcBukxk5ju6RTbmy8s6PNKuWIhqK4H3LsQ==",
+  "dgSpecHash": "aqzOWdPlgQVStZthxPzBP8cR7NMxTkQUVcdj1RBpnuh1IAWB9bZCQnfI5lJP79eU3B23Ka+yh0uvj3/plAgycg==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Azure Function Projects\\ServiceBus\\git\\ecommerce\\Ecommerce.API.Search\\Ecommerce.API.Search.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\Ahmed_Gaber\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Ahmed_Gaber\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Ahmed_Gaber\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Ahmed_Gaber\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
     "C:\\Users\\Ahmed_Gaber\\.nuget\\packages\\polly\\7.2.2\\polly.7.2.2.nupkg.sha512",
     "C:\\Users\\Ahmed_Gaber\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\Ahmed_Gaber\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",

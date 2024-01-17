@@ -1,0 +1,64 @@
+name: dockercompose13747113935695257018
+services:
+  ecommerce.api.customers:
+    build:
+      context: C:\Projects\Azure Function Projects\ServiceBus\git\ecommerce
+      dockerfile: Ecommerce.API.Customers\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapicustomers
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "6002"
+        protocol: tcp
+  ecommerce.api.orders:
+    build:
+      context: C:\Projects\Azure Function Projects\ServiceBus\git\ecommerce
+      dockerfile: Ecommerce.API.Orders\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapiorders
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "6003"
+        protocol: tcp
+  ecommerce.api.products:
+    build:
+      context: C:\Projects\Azure Function Projects\ServiceBus\git\ecommerce
+      dockerfile: Ecommerce.API.Products\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapiproducts
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "6001"
+        protocol: tcp
+  ecommerce.api.search:
+    build:
+      context: C:\Projects\Azure Function Projects\ServiceBus\git\ecommerce
+      dockerfile: Ecommerce.API.Search\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      Services__Customers: http://ecommerce.api.customers
+      Services__Orders: http://ecommerce.api.orders
+      Services__Products: http://ecommerce.api.products
+    image: ecommerceapisearch
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "6004"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose13747113935695257018_default

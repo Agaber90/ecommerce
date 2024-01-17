@@ -1,0 +1,18 @@
+name: dockercompose13747113935695257018
+services:
+  ecommerce.api.customers:
+    build:
+      context: C:\Projects\Azure Function Projects\ServiceBus\git\ecommerce
+      dockerfile: Ecommerce.API.Customers\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapicustomers
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose13747113935695257018_default

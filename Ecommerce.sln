@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.API.Products", "Ecommerce.API.Products\Ecommerce.API.Products.csproj", "{677F6A23-D246-42E0-A401-A206EA999A8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.API.Products", "Ecommerce.API.Products\Ecommerce.API.Products.csproj", "{677F6A23-D246-42E0-A401-A206EA999A8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.API.Customers", "Ecommerce.API.Customers\Ecommerce.API.Customers.csproj", "{2A8AA7A9-1EDB-41B7-82AD-B3FB946A570A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.API.Customers", "Ecommerce.API.Customers\Ecommerce.API.Customers.csproj", "{2A8AA7A9-1EDB-41B7-82AD-B3FB946A570A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.API.Orders", "Ecommerce.API.Orders\Ecommerce.API.Orders.csproj", "{6ED76D34-4035-43F6-9597-A4935AF14111}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.API.Orders", "Ecommerce.API.Orders\Ecommerce.API.Orders.csproj", "{6ED76D34-4035-43F6-9597-A4935AF14111}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.API.Search", "Ecommerce.API.Search\Ecommerce.API.Search.csproj", "{F08DDDD1-0926-427C-B6CC-460F7FFE4AAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.API.Search", "Ecommerce.API.Search\Ecommerce.API.Search.csproj", "{F08DDDD1-0926-427C-B6CC-460F7FFE4AAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.API.Products.Tests", "ECommerce.API.Products.Tests\ECommerce.API.Products.Tests.csproj", "{958C21FB-C63C-4FCE-96D9-3F613EC270E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.API.Products.Tests", "ECommerce.API.Products.Tests\ECommerce.API.Products.Tests.csproj", "{958C21FB-C63C-4FCE-96D9-3F613EC270E8}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5F8C4D76-6269-495A-9CC2-B6346FEC6AE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{958C21FB-C63C-4FCE-96D9-3F613EC270E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{958C21FB-C63C-4FCE-96D9-3F613EC270E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{958C21FB-C63C-4FCE-96D9-3F613EC270E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8C4D76-6269-495A-9CC2-B6346FEC6AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8C4D76-6269-495A-9CC2-B6346FEC6AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8C4D76-6269-495A-9CC2-B6346FEC6AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8C4D76-6269-495A-9CC2-B6346FEC6AE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
